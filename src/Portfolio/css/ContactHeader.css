@@ -1,5 +1,15 @@
 .custom-contactheader {
-  background-color: green;
-  height: 30vh;
+  display: flex;
+  flex-direction: column;  
   width: 5%;
+  text-align: center;
+}
+
+.custom-contact-item {
+  display: inline-block;
+  height: 60px;
+  width: 98%;
+  margin: 0 auto;
+  background-color: #fff;
+  outline: 1px solid #e6e6e6;
 }

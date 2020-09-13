@@ -1,5 +1,5 @@
 .custom-description {
-  background-color: blue;
-  height: 100vh;
-  width: 80%;
+  min-height: 100vh;
+  width: 83%;
+  background-color: #ffffff;
 }
