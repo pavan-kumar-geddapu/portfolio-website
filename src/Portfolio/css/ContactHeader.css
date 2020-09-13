@@ -1,15 +1,25 @@
 .custom-contactheader {
   display: flex;
   flex-direction: column;  
-  width: 5%;
+  width: 40px;
   text-align: center;
 }
 
 .custom-contact-item {
-  display: inline-block;
-  height: 60px;
+  display: block;
+  height: 30px;
   width: 98%;
   margin: 0 auto;
-  background-color: #fff;
+  padding-top: 30%;
   outline: 1px solid #e6e6e6;
+
+  background: linear-gradient(to right, #2a2a2a 50%, #ffd42d 50%);
+  background-size: 200% 100%;
+  background-position: right;
+  transition: all .5s ease-out;
+}
+
+.custom-contact-item:hover {
+  background-position: left;
+  color: #ffffff;
 }

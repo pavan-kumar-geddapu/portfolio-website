@@ -14,12 +14,32 @@
   background-color: #fff;
   outline: 1px solid #e6e6e6;
 }
+.custom-brand {
+  background-image: url("../assets/profile-pic.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .custom-navbar-item {
-  display: inline-block;
-  height: 130px;
-  width: 98%;
+  display: block;
+  height: 100px;
+  width: 99%;
   margin: 0 auto;
-  background-color: #fff;
+  padding-top: 25%;
   outline: 1px solid #e6e6e6;
+  cursor: pointer;
+
+  background: linear-gradient(to right, #ffd42d 50%, #ffffff 50%);
+  background-size: 200% 100%;
+  background-position: right;
+  transition: all .5s ease-out;
+}
+.custom-navbar-item:hover {
+  background-position: left;
+}
+
+.custom-navbar-item h3 {
+  margin: 0 auto;
+  font-size: medium;
 }
