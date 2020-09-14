@@ -18,7 +18,7 @@ class Navbar extends Component {
     return(
       <div className = "navbar-container">
         <div className = "custom-navbar-brand">
-          <img className = "custom-image" src={require('../assets/profile-pic.png')} alt="not found"></img>
+          <img className = "custom-image" src={require('../assets/profile_pic.jpg')} alt="not found"></img>
         </div>
         <div className = "custom-navbar">
           <div 

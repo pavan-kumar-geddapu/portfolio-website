@@ -16,19 +16,6 @@
   box-sizing: border-box;
 }
 
-/* .custom-navbar-brand {
-  background-image: url("../assets/profile-pic.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: inline-block;
-  height: 170px;
-  width: 100%;
-  margin: 0 auto;
-  background-color: #fff;
-  outline: 1px solid #e6e6e6;
-} */
-
 .custom-navbar-brand {
   position: relative;
   width: 100%;
@@ -46,9 +33,11 @@
   height: 120px;
   width: 100%;
   margin: 0 auto;
-  outline: 1px solid #e6e6e6;
+  /* outline: 1px solid #e6e6e6; */
+  border: 1px solid #e6e6e6;
   cursor: pointer;
   box-sizing: border-box;
+  flex-shrink: 1;
   z-index: 10;
 
   background: linear-gradient(to right, #ffd42d 50%, #ffffff 50%);
