@@ -10,13 +10,13 @@ class ContactHeader extends Component {
     return(
       <div className = "custom-contactheader">
         <div className = "custom-contact-item">
-          <FaLinkedinIn size = {20}/>
+          <FaLinkedinIn size = {20} style={{marginTop: "10px"}}/>
         </div>
         <div className = "custom-contact-item">
-          <FaGithub size = {20}/>
+          <FaGithub size = {20} style={{marginTop: "10px"}}/>
         </div>
         <div className = "custom-contact-item">
-        <FaFacebookF size = {20}/>
+        <FaFacebookF size = {20} style={{marginTop: "10px"}}/>
         </div>
       </div>
     );

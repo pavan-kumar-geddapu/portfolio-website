@@ -1,9 +1,12 @@
 import React, { Component } from "react";
+import { withGetScreen } from "react-getscreen";
 import "./css/Portfolio.css";
 
 import Navbar from "./components/Navbar";
 import Description from "./components/Description";
 import ContactHeader from "./components/ContactHeader";
+
+const widthBreakPoint = 900;
 
 class Portfolio extends Component {
 
@@ -19,20 +22,39 @@ class Portfolio extends Component {
   }
 
   render() {
+    
+    let curScreenWidth = window.innerWidth;
     const {descriptionItem} = this.state;
-    return(
-      <div className = "base-container">
-        <Navbar 
-          descriptionItem = {descriptionItem}
-          changeDescriptionItem = {this.changeDescriptionItem}
-        />
-        <Description 
-          descriptionItem = {descriptionItem}
-        />
-        <ContactHeader />
-      </div>
-    );
+
+    if(curScreenWidth >= widthBreakPoint){
+      return(
+        <div className = "base-container">
+          <Navbar 
+            descriptionItem = {descriptionItem}
+            changeDescriptionItem = {this.changeDescriptionItem}
+          />
+          <Description 
+            descriptionItem = {descriptionItem}
+          />
+          <ContactHeader />
+        </div>
+      );
+    }
+    else {
+      return(
+        <div className = "base-container">
+          <ContactHeader />
+          <Navbar 
+            descriptionItem = {descriptionItem}
+            changeDescriptionItem = {this.changeDescriptionItem}
+          />
+          <Description 
+            descriptionItem = {descriptionItem}
+          />
+        </div>
+      );
+    }
   }
 }
 
-export default Portfolio;
+export default withGetScreen(Portfolio);

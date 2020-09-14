@@ -1,7 +1,33 @@
 .base-container {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   
+  width: 100%;
   margin-top: 150px;
   margin-bottom: 150px;
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px){
+  .base-container {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 900px){
+  .base-container {
+    flex-direction: column;
+    margin-top: 50px;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+}
+
+@media only screen and (max-width: 549px){
+  .base-container {
+    flex-direction: column;
+    margin-top: 50px;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
 }

@@ -4,14 +4,15 @@
   flex-shrink: 0;
   width: 40px;
   text-align: center;
+  position: relative;
+  float: right;
 }
 
 .custom-contact-item {
-  display: block;
-  height: 30px;
-  width: 100%;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
   margin: 0 auto;
-  padding-top: 30%;
   outline: 1px solid #e6e6e6;
   z-index: 10;
 
@@ -24,4 +25,12 @@
 .custom-contact-item:hover {
   background-position: left;
   color: #ffffff;
+}
+
+@media only screen and (max-width: 900px){
+  .custom-contactheader {
+    flex-direction: row;
+    width: fit-content;
+    align-self: right;
+  }
 }

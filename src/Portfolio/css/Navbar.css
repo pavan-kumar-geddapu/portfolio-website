@@ -1,4 +1,4 @@
-.custom-navbar {
+.navbar-container {
   display: flex;
   flex-direction: column;  
   flex-shrink: 0;
@@ -6,20 +6,39 @@
   text-align: center;
   text-transform: uppercase;
 }
+.custom-navbar {
+  display: flex;
+  flex-direction: column;  
+  flex-shrink: 0;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  box-sizing: border-box;
+}
 
-.custom-navbar-brand {
+/* .custom-navbar-brand {
+  background-image: url("../assets/profile-pic.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: inline-block;
   height: 170px;
   width: 100%;
   margin: 0 auto;
   background-color: #fff;
   outline: 1px solid #e6e6e6;
+} */
+
+.custom-navbar-brand {
+  position: relative;
+  width: 100%;
+  height: auto;
 }
-.custom-brand {
-  background-image: url("../assets/profile-pic.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.custom-image {
+  display: inline-block;
+  vertical-align: middle;
+  height: auto;
+  max-width: 100%;
 }
 
 .custom-navbar-item {
@@ -29,6 +48,7 @@
   margin: 0 auto;
   outline: 1px solid #e6e6e6;
   cursor: pointer;
+  box-sizing: border-box;
   z-index: 10;
 
   background: linear-gradient(to right, #ffd42d 50%, #ffffff 50%);
@@ -50,4 +70,53 @@
 .inner-items {
   margin-top: 30px;
 }
+
+@media only screen and (min-width: 901px) and (max-width: 1150px){
+  .navbar-container {
+    width: 110px;
+  }
+  .custom-navbar-item {
+    height: 100px;
+  }
+  .inner-items {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 900px){
+  .navbar-container {
+    width: 100%;
+  }
+  .custom-navbar {
+    flex-direction: row;
+  }
+  .custom-navbar-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .inner-items {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 549px){
+  .custom-navbar-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: small;
+  }
+  .custom-navbar-item h3 {
+    margin: 0 auto;
+    font-size: small;
+  }
+}
+
+
+
+
 
