@@ -32,6 +32,7 @@ class Description extends Component {
     return(
       <div className = "custom-description">
         {descriptionComponent}
+        <div className = "custom-footer"></div>
       </div>
     );
   }
