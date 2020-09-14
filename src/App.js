@@ -5,7 +5,7 @@ import Portfolio from "./Portfolio/Portfolio";
 
 function App() {
   return (
-    <div>
+    <div className = "App">
       <Portfolio />
     </div>
   );

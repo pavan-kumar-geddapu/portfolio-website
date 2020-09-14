@@ -1,6 +1,7 @@
 .custom-contactheader {
   display: flex;
   flex-direction: column;  
+  flex-shrink: 0;
   width: 40px;
   text-align: center;
 }
@@ -8,10 +9,11 @@
 .custom-contact-item {
   display: block;
   height: 30px;
-  width: 98%;
+  width: 100%;
   margin: 0 auto;
   padding-top: 30%;
   outline: 1px solid #e6e6e6;
+  z-index: 10;
 
   background: linear-gradient(to right, #2a2a2a 50%, #ffd42d 50%);
   background-size: 200% 100%;

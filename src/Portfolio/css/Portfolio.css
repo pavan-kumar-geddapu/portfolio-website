@@ -1,9 +1,7 @@
 .base-container {
-  margin-top: 20vh;
-  margin-left: 150px;
-  margin-right: 150px;
-  margin-bottom: 5vh;
-
   display: flex;
   flex-direction: row;
+  
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
