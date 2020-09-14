@@ -9,14 +9,26 @@ class Portfolio extends Component {
 
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      descriptionItem: "aboutme"
+    };
+  }
+
+  changeDescriptionItem = (item) => {
+    this.setState({descriptionItem: item});
   }
 
   render() {
+    const {descriptionItem} = this.state;
     return(
       <div className = "base-container">
-        <Navbar />
-        <Description />
+        <Navbar 
+          descriptionItem = {descriptionItem}
+          changeDescriptionItem = {this.changeDescriptionItem}
+        />
+        <Description 
+          descriptionItem = {descriptionItem}
+        />
         <ContactHeader />
       </div>
     );

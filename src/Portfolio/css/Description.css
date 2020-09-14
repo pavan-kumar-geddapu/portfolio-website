@@ -1,5 +1,8 @@
 .custom-description {
   min-height: 100vh;
   width: 80%;
+  padding-top: 50px;
+  text-align: center;
   background-color: #ffffff;
+  z-index: 5;
 }
