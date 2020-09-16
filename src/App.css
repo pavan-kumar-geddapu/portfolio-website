@@ -44,6 +44,28 @@
 }
 
 
+/* progress bar styling */
+
+
+.progress-bar {
+  display: block;
+  height: 15px;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  background-color: #e6e6e6;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.progress-bar span {
+  height: 100%;
+  background-color: #ffd42d;
+  float: left;
+  border-radius: 5px;
+}
+
+
 /* Designs for small rectangle , circles */
 
 

@@ -87,6 +87,116 @@ class Resume extends Component {
           </div>
           <div className = "start-dark-circle"></div>
         </div>
+        
+        {/* skill progress bars */}
+        <div className = "row">
+        <div className = "start-rectangle"></div>
+        <div className = "sub-heading">
+          <h1>Skills</h1>
+        </div>
+        <div className = "start-bright-circle"></div>
+        <div className = "divider-container">
+          <div className = "divider-children sub-heading">
+            <h2>CPP</h2>
+          </div>
+          <div className = "divider-children">
+            <div className = "progress-bar" >
+              <span style={{width: "60%"}}></span>
+            </div>
+          </div>
+        </div>
+        <div className = "divider-container">
+          <div className = "divider-children sub-heading">
+            <h2>Java</h2>
+          </div>
+          <div className = "divider-children">
+            <div className = "progress-bar" >
+              <span style={{width: "55%"}}></span>
+            </div>
+          </div>
+        </div>
+        <div className = "divider-container">
+          <div className = "divider-children sub-heading">
+            <h2>Python</h2>
+          </div>
+          <div className = "divider-children">
+            <div className = "progress-bar" >
+              <span style={{width: "50%"}}></span>
+            </div>
+          </div>
+        </div>
+        <div className = "divider-container">
+          <div className = "divider-children sub-heading">
+            <h2>HTML</h2>
+          </div>
+          <div className = "divider-children">
+            <div className = "progress-bar" >
+              <span style={{width: "65%"}}></span>
+            </div>
+          </div>
+        </div>
+        <div className = "divider-container">
+          <div className = "divider-children sub-heading">
+            <h2>CSS</h2>
+          </div>
+          <div className = "divider-children">
+            <div className = "progress-bar" >
+              <span style={{width: "65%"}}></span>
+            </div>
+          </div>
+        </div>
+        <div className = "divider-container">
+          <div className = "divider-children sub-heading">
+            <h2>JavaScript</h2>
+          </div>
+          <div className = "divider-children">
+            <div className = "progress-bar" >
+              <span style={{width: "50%"}}></span>
+            </div>
+          </div>
+        </div>
+        <div className = "divider-container">
+          <div className = "divider-children sub-heading">
+            <h2>Oracle SQL</h2>
+          </div>
+          <div className = "divider-children">
+            <div className = "progress-bar" >
+              <span style={{width: "45%"}}></span>
+            </div>
+          </div>
+        </div>
+        <div className = "divider-container">
+          <div className = "divider-children sub-heading">
+            <h2>Angular</h2>
+          </div>
+          <div className = "divider-children">
+            <div className = "progress-bar" >
+              <span style={{width: "30%"}}></span>
+            </div>
+          </div>
+        </div>
+        <div className = "divider-container">
+          <div className = "divider-children sub-heading">
+            <h2>React</h2>
+          </div>
+          <div className = "divider-children">
+            <div className = "progress-bar" >
+              <span style={{width: "40%"}}></span>
+            </div>
+          </div>
+        </div>
+        <div className = "divider-container">
+          <div className = "divider-children sub-heading">
+            <h2>Spring Boot</h2>
+          </div>
+          <div className = "divider-children">
+            <div className = "progress-bar" >
+              <span style={{width: "30%"}}></span>
+            </div>
+          </div>
+        </div>
+        <div className = "start-dark-circle"></div>
+        </div>
       </>
     );
   }
