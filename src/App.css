@@ -15,11 +15,17 @@
   word-wrap: break-word; 
 }
 
+
+/* split page container for aboutme page*/
+
+
 .divider-container {
   display: flex;
   flex-direction: row;
   margin: 0 auto;
   width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
   box-sizing: border-box;
 }
 .divider-children {
@@ -37,7 +43,10 @@
   text-align: left;
 }
 
+
 /* Designs for small rectangle , circles */
+
+
 .start-rectangle{
   display: inline-block;
   height: 9px;
@@ -67,7 +76,9 @@
   border-radius: 50px;
 }
 
+
 /* text designs */
+
 
 .main-heading h1 {
   font-size: 40px;
