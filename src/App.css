@@ -3,3 +3,119 @@
   align-items: center;
   justify-content: center;
 }
+
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  box-sizing: border-box;
+  word-wrap: break-word; 
+}
+
+.divider-container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+.divider-children {
+  display: inline-block;
+  width: 50%;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-sizing: border-box;
+}
+.divider-children:nth-child(1) {
+  text-align: right;
+  border-right: 1px solid  #e6e6e6;
+}
+.divider-children:nth-child(2) {
+  text-align: left;
+}
+
+/* Designs for small rectangle , circles */
+.start-rectangle{
+  display: inline-block;
+  height: 9px;
+  width: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #ffd42d;
+}
+
+.start-bright-circle{
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #ffd42d;
+  border-radius: 50px;
+}
+
+.start-dark-circle{
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #2a2a2a;
+  border-radius: 50px;
+}
+
+/* text designs */
+
+.main-heading h1 {
+  font-size: 40px;
+  font-weight: 400;
+  margin: 0 auto;
+  color: #2a2a2a;
+}
+.main-heading h3 {
+  font-size: 27px;
+  font-weight: 300;
+  margin: 0 auto;
+  color: #808080;
+}
+
+.sub-heading h1 {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  color: #2a2a2a;
+  text-transform: uppercase;
+}
+
+.sub-heading h2 {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: #2a2a2a;
+}
+
+.sub-heading h3 {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: #808080;
+}
+
+.sub-content p {
+  font-size: 20px;
+  font-weight: 200;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  color: #808080;
+}
