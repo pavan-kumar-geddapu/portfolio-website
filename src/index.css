@@ -13,3 +13,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* color variables  */
+
+
+:root {
+  --bg-bright-color: #ffd42d;
+  --bg-dark-color: #2a2a2a;
+  --bg-light-color: #e6e6e6;
+  --bg-white-color: #ffffff;
+  --heading-dark-color: #2a2a2a;
+  --heading-light-color: #999999;
+  --text-dark-color: #2a2a2a;
+  --text-light-color: #999999;
+}

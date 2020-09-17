@@ -6,6 +6,11 @@
   text-align: center;
   text-transform: uppercase;
 }
+
+
+/* custom made navbar */
+
+
 .custom-navbar {
   display: flex;
   flex-direction: column;  
@@ -21,6 +26,7 @@
   width: 100%;
   height: auto;
 }
+
 .custom-image {
   display: inline-block;
   vertical-align: middle;
@@ -33,14 +39,12 @@
   height: 120px;
   width: 100%;
   margin: 0 auto;
-  /* outline: 1px solid #e6e6e6; */
-  border: 1px solid #e6e6e6;
+  border: 1px solid var(--bg-light-color);
   cursor: pointer;
   box-sizing: border-box;
   flex-shrink: 1;
   z-index: 10;
-
-  background: linear-gradient(to right, #ffd42d 50%, #ffffff 50%);
+  background: linear-gradient(to right, var(--bg-bright-color) 50%, var(--bg-white-color) 50%);
   background-size: 200% 100%;
   background-position: right;
   transition: all .5s ease-out;
@@ -52,13 +56,20 @@
   margin: 0 auto;
   font-size: medium;
 }
+
+/* custom-navbar-item active state class */
+
 .active {
-  background: #ffd42d;  
+  background: var(--bg-bright-color);  
 }
 
 .inner-items {
   margin-top: 30px;
 }
+
+
+/* for variable screen sizes */
+
 
 @media only screen and (min-width: 901px) and (max-width: 1150px){
   .navbar-container {

@@ -4,100 +4,6 @@
   justify-content: center;
 }
 
-.row {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 60px;
-  margin-bottom: 60px;
-  box-sizing: border-box;
-  word-wrap: break-word; 
-}
-
-
-/* split page container for aboutme page*/
-
-
-.divider-container {
-  display: flex;
-  flex-direction: row;
-  margin: 0 auto;
-  width: 100%;
-  padding-left: 5%;
-  padding-right: 5%;
-  box-sizing: border-box;
-}
-.divider-children {
-  display: inline-block;
-  width: 50%;
-  padding-left: 5%;
-  padding-right: 5%;
-  box-sizing: border-box;
-}
-.divider-children:nth-child(1) {
-  text-align: right;
-  border-right: 1px solid  #e6e6e6;
-}
-.divider-children:nth-child(2) {
-  text-align: left;
-}
-
-
-/* progress bar styling */
-
-
-.progress-bar {
-  display: block;
-  height: 15px;
-  width: 100%;
-  margin-top: 0px;
-  margin-bottom: 10px;
-  background-color: #e6e6e6;
-  box-sizing: border-box;
-  border-radius: 5px;
-}
-
-.progress-bar span {
-  height: 100%;
-  background-color: #ffd42d;
-  float: left;
-  border-radius: 5px;
-}
-
-
-/* Designs for small rectangle , circles */
-
-
-.start-rectangle{
-  display: inline-block;
-  height: 9px;
-  width: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  background-color: #ffd42d;
-}
-
-.start-bright-circle{
-  display: inline-block;
-  height: 15px;
-  width: 15px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  background-color: #ffd42d;
-  border-radius: 50px;
-}
-
-.start-dark-circle{
-  display: inline-block;
-  height: 15px;
-  width: 15px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  background-color: #2a2a2a;
-  border-radius: 50px;
-}
-
 
 /* text designs */
 
@@ -106,13 +12,13 @@
   font-size: 40px;
   font-weight: 400;
   margin: 0 auto;
-  color: #2a2a2a;
+  color: var(--heading-dark-color);
 }
 .main-heading h3 {
   font-size: 27px;
   font-weight: 300;
   margin: 0 auto;
-  color: #808080;
+  color: var(--heading-light-color);
 }
 
 .sub-heading h1 {
@@ -121,7 +27,7 @@
   margin: 0 auto;
   margin-top: 0px;
   margin-bottom: 50px;
-  color: #2a2a2a;
+  color: var(--heading-dark-color);
   text-transform: uppercase;
 }
 
@@ -131,7 +37,7 @@
   margin: 0 auto;
   margin-top: 0px;
   margin-bottom: 10px;
-  color: #2a2a2a;
+  color: var(--heading-dark-color);
 }
 
 .sub-heading h3 {
@@ -140,7 +46,7 @@
   margin: 0 auto;
   margin-top: 0px;
   margin-bottom: 10px;
-  color: #808080;
+  color: var(--heading-light-color);
 }
 
 .sub-content p {
@@ -150,5 +56,5 @@
   margin-bottom: 10px;
   margin-left: 20%;
   margin-right: 20%;
-  color: #808080;
+  color: var(--text-light-color);
 }

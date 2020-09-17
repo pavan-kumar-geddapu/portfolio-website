@@ -5,14 +5,14 @@
   padding-bottom: 50px;
   text-align: center;
   height: auto;
-  background-color: #ffffff;
+  background-color: var(--bg-white-color);
   z-index: 5;
   box-shadow: 0px 8px 25px -10px rgba(0,0,0,0.35), 
-              0px 15px 0px -8px #ffd42d, 
-              0px 15px 0px -7px #ffd42d, 
+              0px 15px 0px -8px var(--bg-bright-color), 
+              0px 15px 0px -7px var(--bg-bright-color), 
               0px 16px 25px -10px rgba(0,0,0,0.35), 
-              0px 30px 0px -15px #ffd42d, 
-              0px 30px 0px -14px #ffd42d;
+              0px 30px 0px -15px var(--bg-bright-color), 
+              0px 30px 0px -14px var(--bg-bright-color);
 }
 
 .custom-footer {
@@ -20,8 +20,106 @@
   bottom: 0px;
   height: 20px;
   width: 100%;
-  background-color: #ffd42d;
+  background-color: var(--bg-bright-color);
 }
+
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  box-sizing: border-box;
+  word-wrap: break-word; 
+}
+
+
+/* split page container */
+
+
+.divider-container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-sizing: border-box;
+}
+.divider-children {
+  display: inline-block;
+  width: 50%;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-sizing: border-box;
+}
+.divider-children:nth-child(1) {
+  text-align: right;
+  border-right: 1px solid  var(--bg-light-color);
+}
+.divider-children:nth-child(2) {
+  text-align: left;
+}
+
+
+/* progress bar styling */
+
+
+.progress-bar {
+  display: block;
+  height: 15px;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  background-color: var(--bg-light-color);
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.progress-bar span {
+  height: 100%;
+  background-color: var(--bg-bright-color);
+  float: left;
+  border-radius: 5px;
+}
+
+
+/* Designs for small rectangle , circles */
+
+
+.start-rectangle{
+  display: inline-block;
+  height: 9px;
+  width: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: var(--bg-bright-color);
+}
+
+.start-bright-circle{
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: var(--bg-bright-color);
+  border-radius: 50px;
+}
+
+.start-dark-circle{
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: var(--bg-dark-color);
+  border-radius: 50px;
+}
+
+
+/* variable screen adjustments */
+
 
 @media only screen and (min-width: 901px) and (max-width: 1150px){
   .custom-description {

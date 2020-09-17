@@ -11,12 +11,12 @@
   height: 40px;
   width: 40px;
   margin: 0 auto;
-  border: 1px solid #e6e6e6;
+  border: 1px solid var(--bg-light-color);
   cursor: pointer;
   box-sizing: border-box;
   z-index: 10;
 
-  background: linear-gradient(to right, #2a2a2a 50%, #ffd42d 50%);
+  background: linear-gradient(to right, var(--bg-dark-color) 50%, var(--bg-bright-color) 50%);
   background-size: 200% 100%;
   background-position: right;
   transition: all .5s ease-out;
@@ -24,7 +24,7 @@
 
 .custom-contact-item:hover {
   background-position: left;
-  color: #ffffff;
+  color: var(--bg-white-color);
 }
 
 @media only screen and (max-width: 900px){
