@@ -22,40 +22,48 @@ class Navbar extends Component {
         </div>
         <div className = "custom-navbar">
           <div 
-              className = {`custom-navbar-item ${descriptionItem === "aboutme" ? 'active' : ''}`}
+              className = "custom-navbar-item"
               onClick = {() => changeDescriptionItem("aboutme")}
             >
-              <div className = "inner-items">
-                <MdAccountCircle size = {30}/>
-                <h3>about me</h3>
-              </div>          
+              <div className = {`${descriptionItem === "aboutme" ? 'arrow' : ''}`} ></div>
+              <div className = {`${descriptionItem === "aboutme" ? 'active' : ''}`} ></div>
+              <div className = "custom-navbar-item-icons">
+                <MdAccountCircle />
+              </div>
+              <h3>about me</h3>         
             </div>
           <div 
-            className = {`custom-navbar-item ${descriptionItem === "resume" ? 'active' : ''}`}
+            className = "custom-navbar-item"
             onClick = {() => changeDescriptionItem("resume")}
           >
-            <div className = "inner-items">
-              <MdBusinessCenter size = {30}/>
-              <h3>resume</h3>
-            </div>          
+            <div className = {`${descriptionItem === "resume" ? 'arrow' : ''}`} ></div>
+            <div className = {`${descriptionItem === "resume" ? 'active' : ''}`} ></div>
+            <div className = "custom-navbar-item-icons">
+              <MdBusinessCenter />
+            </div>
+            <h3>resume</h3>          
           </div>
           <div 
-            className = {`custom-navbar-item ${descriptionItem === "projects" ? 'active' : ''}`}
+            className = "custom-navbar-item"
             onClick = {() => changeDescriptionItem("projects")}
           >
-            <div className = "inner-items">
-              <MdFolder size = {30}/>
-              <h3>projects</h3> 
-            </div>         
+            <div className = {`${descriptionItem === "projects" ? 'arrow' : ''}`} ></div>
+            <div className = {`${descriptionItem === "projects" ? 'active' : ''}`} ></div>
+            <div className = "custom-navbar-item-icons">
+              <MdFolder />
+            </div>
+            <h3>projects</h3>        
           </div>
           <div 
-            className = {`custom-navbar-item ${descriptionItem === "contact" ? 'active' : ''}`}
+            className = "custom-navbar-item"
             onClick = {() => changeDescriptionItem("contact")}
           >
-            <div className = "inner-items">
-              <MdPermPhoneMsg size = {30}/>
-              <h3>contact</h3>
-            </div>          
+            <div className = {`${descriptionItem === "contact" ? 'arrow' : ''}`} ></div>
+            <div className = {`${descriptionItem === "contact" ? 'active' : ''}`} ></div>
+            <div className = "custom-navbar-item-icons">
+              <MdPermPhoneMsg />
+            </div>
+            <h3>contact</h3>          
           </div>
         </div>
       </div>
