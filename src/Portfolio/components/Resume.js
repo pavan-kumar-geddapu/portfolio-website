@@ -24,6 +24,9 @@ class Resume extends Component {
             <div className = "divider-children sub-heading">
               <h3>Aug-2020 Present</h3>
               <h2>Software Development Engineer</h2>
+              <div className = "orginsation-icon">
+                  <img className = "image-fill" src={require('../assets/mastercard.png')} alt="not found"></img>
+              </div>
             </div>
             <div className = "divider-children sub-heading">
               <h3>
@@ -37,6 +40,9 @@ class Resume extends Component {
             <div className = "divider-children sub-heading">
               <h3>May-2019 July-2019</h3>
               <h2>Software Development Intern</h2>
+              <div className = "orginsation-icon">
+                  <img className = "image-fill" src={require('../assets/mastercard.png')} alt="not found"></img>
+              </div>
             </div>
             <div className = "divider-children sub-heading">
               <h3>
