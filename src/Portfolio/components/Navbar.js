@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import { MdAccountCircle } from "react-icons/md";
-import { MdBusinessCenter } from "react-icons/md";
-import { MdFolder } from "react-icons/md";
-import { MdPermPhoneMsg } from "react-icons/md";
+import { BsPersonFill } from "react-icons/bs";
+import { MdWork } from "react-icons/md";
+import { AiFillFolder } from "react-icons/ai";
+import { AiFillPhone } from "react-icons/ai";
 
 import "../css/Navbar.css";
 
@@ -28,7 +28,7 @@ class Navbar extends Component {
               <div className = {`${descriptionItem === "aboutme" ? 'arrow' : ''}`} ></div>
               <div className = {`${descriptionItem === "aboutme" ? 'active' : ''}`} ></div>
               <div className = "custom-navbar-item-icons">
-                <MdAccountCircle />
+                <BsPersonFill />
               </div>
               <h3>about me</h3>         
             </div>
@@ -39,7 +39,7 @@ class Navbar extends Component {
             <div className = {`${descriptionItem === "resume" ? 'arrow' : ''}`} ></div>
             <div className = {`${descriptionItem === "resume" ? 'active' : ''}`} ></div>
             <div className = "custom-navbar-item-icons">
-              <MdBusinessCenter />
+              <MdWork />
             </div>
             <h3>resume</h3>          
           </div>
@@ -50,7 +50,7 @@ class Navbar extends Component {
             <div className = {`${descriptionItem === "projects" ? 'arrow' : ''}`} ></div>
             <div className = {`${descriptionItem === "projects" ? 'active' : ''}`} ></div>
             <div className = "custom-navbar-item-icons">
-              <MdFolder />
+              <AiFillFolder />
             </div>
             <h3>projects</h3>        
           </div>
@@ -61,7 +61,7 @@ class Navbar extends Component {
             <div className = {`${descriptionItem === "contact" ? 'arrow' : ''}`} ></div>
             <div className = {`${descriptionItem === "contact" ? 'active' : ''}`} ></div>
             <div className = "custom-navbar-item-icons">
-              <MdPermPhoneMsg />
+              <AiFillPhone />
             </div>
             <h3>contact</h3>          
           </div>
