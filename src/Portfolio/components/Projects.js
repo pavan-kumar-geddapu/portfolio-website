@@ -68,7 +68,7 @@ class Projects extends Component {
                   <FaGithub />
                 </a>
                 <a 
-                  href="#" target="_blank" rel="noopener noreferrer"
+                  href="https://pavan-kumar-geddapu.github.io/portfolio-website/" target="_blank" rel="noopener noreferrer"
                   className = "custom-link">
                   <BiLink />
                 </a>
