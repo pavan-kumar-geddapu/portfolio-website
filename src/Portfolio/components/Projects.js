@@ -1,7 +1,8 @@
 import React, { Component } from "react";
+import "../css/Projects.css";
 
 import { FaGithub } from "react-icons/fa";
-import { FaExternalLinkSquareAlt } from "react-icons/fa";
+import { BiLink } from "react-icons/bi";
 
 class Projects extends Component {
   render() {
@@ -47,7 +48,7 @@ class Projects extends Component {
                 <a 
                   href="https://pavan-kumar-geddapu.github.io/visualising-tool-pathfinder/" target="_blank" rel="noopener noreferrer"
                   className = "custom-link">
-                  <FaExternalLinkSquareAlt />
+                  <BiLink />
                 </a>
                 <div className = "tech-icon">
                 <img className = "image-fill" src={require('../assets/react.png')} alt="not found"></img>
@@ -69,7 +70,7 @@ class Projects extends Component {
                 <a 
                   href="#" target="_blank" rel="noopener noreferrer"
                   className = "custom-link">
-                  <FaExternalLinkSquareAlt />
+                  <BiLink />
                 </a>
                 <div className = "tech-icon">
                 <img className = "image-fill" src={require('../assets/react.png')} alt="not found"></img>
@@ -89,7 +90,7 @@ class Projects extends Component {
                 <a 
                   href="https://pavan-kumar-geddapu.github.io/mini-music-player/" target="_blank" rel="noopener noreferrer"
                   className = "custom-link">
-                  <FaExternalLinkSquareAlt />
+                  <BiLink />
                 </a>
                 <div className = "tech-icon">
                 <img className = "image-fill" src={require('../assets/angular.png')} alt="not found"></img>
