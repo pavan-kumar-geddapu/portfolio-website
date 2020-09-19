@@ -21,10 +21,14 @@ code {
 :root {
   --bg-bright-color: #ffd42d;
   --bg-dark-color: #2a2a2a;
+  --bg-semilight-color: #999999;
   --bg-light-color: #e6e6e6;
   --bg-white-color: #ffffff;
   --heading-dark-color: #2a2a2a;
   --heading-light-color: #999999;
   --text-dark-color: #2a2a2a;
+  --text-semilight-color: #808080;
   --text-light-color: #999999;
+  --link-dark-color: #003399;
+  --link-light-color: #4d88ff;
 }
