@@ -1,4 +1,8 @@
 import React, { Component } from "react";
+import "../css/Resume.css";
+
+import { BiLink } from "react-icons/bi";
+import CourseraLogo from"../assets/coursera.png";
 
 class Resume extends Component {
   render() {
@@ -196,6 +200,66 @@ class Resume extends Component {
           </div>
         </div>
         <div className = "start-dark-circle"></div>
+        </div>
+
+        <div className = "row">
+          <div className = "start-rectangle"></div>
+          <div className = "sub-heading">
+            <h1>Certificates</h1>
+          </div>
+          <div className = "certificate-card-container">
+            <div className = "certificate-card" >
+              <h2>Front-End JavaScript Frameworks: Angular</h2>
+              <h3>
+                Aug-2020 <span><div className = "arrow-left"></div>No expiration</span>
+              </h3>
+              <p>Angular Framework</p>
+              <div className = "certificate-card-footer">
+                <a 
+                  href="http://coursera.org/verify/9RGZZ56GK7LG" target="_blank" rel="noopener noreferrer"
+                  className = "custom-link">
+                  <BiLink />
+                </a>
+                <div className = "orginsation-icon">
+                  <img className = "image-fill" src={require('../assets/coursera.png')} alt="not found"></img>
+                </div>
+              </div>
+            </div>
+            <div className = "certificate-card" >
+              <h2>HTML, CSS, and Javascript for Web Developers</h2>
+              <h3>
+                July-2020 <span><div className = "arrow-left"></div>No expiration</span>
+              </h3>
+              <p>Web delvlopment basics</p>
+              <div className = "certificate-card-footer">
+                <a 
+                  href="http://coursera.org/verify/RAXLMWBLJ2WM" target="_blank" rel="noopener noreferrer"
+                  className = "custom-link">
+                  <BiLink />
+                </a>
+                <div className = "orginsation-icon">
+                  <img className = "image-fill" src={require('../assets/coursera.png')} alt="not found"></img>
+                </div>
+              </div>
+            </div>
+            <div className = "certificate-card" >
+              <h2>Machine Learning</h2>
+              <h3>
+                Jun-2020 <span><div className = "arrow-left"></div>No expiration</span>
+              </h3>
+              <p>Machine Learning basics</p>
+              <div className = "certificate-card-footer">
+                <a 
+                  href="http://coursera.org/verify/WYGEPNQHCAVF" target="_blank" rel="noopener noreferrer"
+                  className = "custom-link">
+                  <BiLink />
+                </a>
+                <div className = "orginsation-icon">
+                  <img className = "image-fill" src={require('../assets/coursera.png')} alt="not found"></img>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </>
     );
