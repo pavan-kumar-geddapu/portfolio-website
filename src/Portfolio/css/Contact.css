@@ -57,3 +57,29 @@
 .contact-card p span {
   color: var(--heading-dark-color);
 }
+
+
+/* variable screen adjustments */
+
+
+@media only screen and (max-width: 1200px){
+  .contact-container {
+    flex-direction: column;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  .contact-card {
+    height: 250px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+}
+
+@media only screen and (max-width: 549px){
+  .contact-container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}

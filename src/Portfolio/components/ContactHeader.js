@@ -9,15 +9,24 @@ class ContactHeader extends Component {
   render() {
     return(
       <div className = "custom-contactheader">
-        <div className = "custom-contact-item">
+        <a 
+          className = "custom-contact-item"
+          href="#" target="_blank" rel="noopener noreferrer"
+        >
           <FaLinkedinIn size = {20} style={{marginTop: "10px"}}/>
-        </div>
-        <div className = "custom-contact-item">
+        </a>
+        <a 
+          className = "custom-contact-item"
+          href="#" target="_blank" rel="noopener noreferrer"
+        >
           <FaGithub size = {20} style={{marginTop: "10px"}}/>
-        </div>
-        <div className = "custom-contact-item">
+        </a>
+        <a 
+          className = "custom-contact-item"
+          href="#" target="_blank" rel="noopener noreferrer"  
+        >
         <FaFacebookF size = {20} style={{marginTop: "10px"}}/>
-        </div>
+        </a>
       </div>
     );
   }
