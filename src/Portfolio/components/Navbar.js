@@ -3,6 +3,7 @@ import { BsPersonFill } from "react-icons/bs";
 import { MdWork } from "react-icons/md";
 import { AiFillFolder } from "react-icons/ai";
 import { AiFillPhone } from "react-icons/ai";
+import profilePicURL from "../assets/profile_pic.jpg";
 
 import "../css/Navbar.css";
 
@@ -18,7 +19,7 @@ class Navbar extends Component {
     return(
       <div className = "navbar-container">
         <div className = "custom-navbar-brand">
-          <img className = "custom-image" src={require('../assets/profile_pic.jpg')} alt="not found"></img>
+          <img className = "custom-image" src={profilePicURL} alt="not found"></img>
         </div>
         <div className = "custom-navbar">
           <div 

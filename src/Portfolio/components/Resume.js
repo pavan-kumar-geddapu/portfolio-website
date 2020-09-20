@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import "../css/Resume.css";
 
 import { BiLink } from "react-icons/bi";
-import CourseraLogo from"../assets/coursera.png";
+import mastercardLogo from "../assets/mastercard.png";
+import courseraLogo from "../assets/coursera.png";
 
 class Resume extends Component {
   render() {
@@ -25,13 +26,13 @@ class Resume extends Component {
               <h3>Aug-2020 Present</h3>
               <h2>Software Development Engineer</h2>
               <div className = "orginsation-icon">
-                  <img className = "image-fill" src={require('../assets/mastercard.png')} alt="not found"></img>
+                  <img className = "image-fill" src={mastercardLogo} alt="not found"></img>
               </div>
             </div>
             <div className = "divider-children sub-heading">
               <h3>
-                i am a software development engineer. i am a software development engineer.
-                i am a software development engineer. i am a software development engineer.
+                New software development engineer learning all the cutting edge technologies that mastercard is using and developing
+                my skills for the full stack web development.
               </h3>
             </div>
           </div>
@@ -41,13 +42,13 @@ class Resume extends Component {
               <h3>May-2019 July-2019</h3>
               <h2>Software Development Intern</h2>
               <div className = "orginsation-icon">
-                  <img className = "image-fill" src={require('../assets/mastercard.png')} alt="not found"></img>
+                  <img className = "image-fill" src={mastercardLogo} alt="not found"></img>
               </div>
             </div>
             <div className = "divider-children sub-heading">
               <h3>
-                i am a software development Intern. i am a software development Intern.
-                i am a software development Intern. i am a software development Intern.
+                Developed a web application to monitor all the apps deployed in PCF with live updates which helps other
+                developers to act quickly when some app is down.
               </h3>
             </div>
           </div>
@@ -227,7 +228,7 @@ class Resume extends Component {
                   <BiLink />
                 </a>
                 <div className = "orginsation-icon">
-                  <img className = "image-fill" src={require('../assets/coursera.png')} alt="not found"></img>
+                  <img className = "image-fill" src={courseraLogo} alt="not found"></img>
                 </div>
               </div>
             </div>
@@ -244,7 +245,7 @@ class Resume extends Component {
                   <BiLink />
                 </a>
                 <div className = "orginsation-icon">
-                  <img className = "image-fill" src={require('../assets/coursera.png')} alt="not found"></img>
+                  <img className = "image-fill" src={courseraLogo} alt="not found"></img>
                 </div>
               </div>
             </div>
@@ -261,7 +262,7 @@ class Resume extends Component {
                   <BiLink />
                 </a>
                 <div className = "orginsation-icon">
-                  <img className = "image-fill" src={require('../assets/coursera.png')} alt="not found"></img>
+                  <img className = "image-fill" src={courseraLogo} alt="not found"></img>
                 </div>
               </div>
             </div>

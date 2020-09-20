@@ -48,11 +48,11 @@ class Contact extends Component {
               <p>pavankumargeddapu@gmail.com</p>
               <p>
                 Linkedin: 
-                <a href="#" target="_blank" rel="noopener noreferrer">Link</a>
+                <a href="https://www.linkedin.com/in/pavan-kumar-geddapu/" target="_blank" rel="noopener noreferrer">Link</a>
               </p>
               <p>
                 Github: 
-                <a href="#" target="_blank" rel="noopener noreferrer">Link</a>
+                <a href="https://github.com/pavan-kumar-geddapu" target="_blank" rel="noopener noreferrer">Link</a>
               </p>
             </div>
           </div>

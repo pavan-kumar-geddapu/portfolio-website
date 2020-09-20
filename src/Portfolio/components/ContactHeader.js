@@ -11,19 +11,19 @@ class ContactHeader extends Component {
       <div className = "custom-contactheader">
         <a 
           className = "custom-contact-item"
-          href="#" target="_blank" rel="noopener noreferrer"
+          href="https://www.linkedin.com/in/pavan-kumar-geddapu/" target="_blank" rel="noopener noreferrer"
         >
           <FaLinkedinIn size = {20} style={{marginTop: "10px"}}/>
         </a>
         <a 
           className = "custom-contact-item"
-          href="#" target="_blank" rel="noopener noreferrer"
+          href="https://github.com/pavan-kumar-geddapu" target="_blank" rel="noopener noreferrer"
         >
           <FaGithub size = {20} style={{marginTop: "10px"}}/>
         </a>
         <a 
           className = "custom-contact-item"
-          href="#" target="_blank" rel="noopener noreferrer"  
+          href="https://www.facebook.com/pavankumargeddapu/" target="_blank" rel="noopener noreferrer"  
         >
         <FaFacebookF size = {20} style={{marginTop: "10px"}}/>
         </a>

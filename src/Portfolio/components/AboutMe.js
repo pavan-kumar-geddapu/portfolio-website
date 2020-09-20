@@ -16,9 +16,10 @@ class AboutMe extends Component {
             <h1>about me</h1>
           </div>
           <div className = "sub-content">
-            <p>my name is pavan. my name is pavan. my name is pavan. my name is pavan. my name is pavan.
-              my name is pavan. my name is pavan. my name is pavan. my name is pavan. my name is pavan.
-              my name is pavan. my name is pavan. my name is pavan. my name is pavan. my name is pavan.
+            <p>
+              An enthusiastic and self motivated software engineer currently developing my skills in full stack web development.
+              Capable of working in a team or working individually. I am continually seeking new challanges and a desire to expand knowledge
+              and experience.
             </p>
           </div>
         </div>
@@ -87,7 +88,7 @@ class AboutMe extends Component {
             </div>
             <div className = "divider-children sub-heading">
               <h2>Email</h2>
-              <h3>pavankumarg11091999@gmail.com</h3>
+              <h3>pavankumargeddapu@gmail.com</h3>
               <h2>Phone</h2>
               <h3>+91 9493778352</h3>
             </div>

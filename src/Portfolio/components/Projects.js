@@ -3,6 +3,9 @@ import "../css/Projects.css";
 
 import { FaGithub } from "react-icons/fa";
 import { BiLink } from "react-icons/bi";
+import pythonLogo from "../assets/python.png";
+import reactLogo from "../assets/react.png";
+import angularLogo from "../assets/angular.png";
 
 class Projects extends Component {
   render() {
@@ -51,7 +54,7 @@ class Projects extends Component {
                   <BiLink />
                 </a>
                 <div className = "tech-icon">
-                <img className = "image-fill" src={require('../assets/react.png')} alt="not found"></img>
+                <img className = "image-fill" src={reactLogo} alt="not found"></img>
                 </div>
               </div>
             </div>
@@ -73,7 +76,7 @@ class Projects extends Component {
                   <BiLink />
                 </a>
                 <div className = "tech-icon">
-                <img className = "image-fill" src={require('../assets/react.png')} alt="not found"></img>
+                <img className = "image-fill" src={reactLogo} alt="not found"></img>
                 </div>
               </div>
             </div>
@@ -93,7 +96,7 @@ class Projects extends Component {
                   <BiLink />
                 </a>
                 <div className = "tech-icon">
-                <img className = "image-fill" src={require('../assets/angular.png')} alt="not found"></img>
+                <img className = "image-fill" src={angularLogo} alt="not found"></img>
                 </div>
               </div>
             </div>
@@ -108,7 +111,7 @@ class Projects extends Component {
                   <FaGithub />
                 </a>
                 <div className = "tech-icon">
-                <img className = "image-fill" src={require('../assets/python.png')} alt="not found"></img>
+                <img className = "image-fill" src={pythonLogo} alt="not found"></img>
                 </div>
               </div>
             </div>
