@@ -1,3 +1,30 @@
+.divider-container h3 span {
+  position: relative;
+  background-color: var(--bg-bright-color);
+  vertical-align: center;
+  font-size: 13px;
+  font-weight: 400px;
+  color: var(--heading-dark-color);
+  height: 18px;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.divider-container .arrow-left {
+  position: absolute;
+  top: 4px;
+  right: 100%;
+  width: 0;
+  height: 0;
+	border-top: 5px solid transparent;
+	border-right: 3px solid var(--bg-bright-color);
+  border-bottom: 5px solid transparent;
+}
+
 .certificate-card-container {
   display: flex;
   flex-wrap: wrap;
@@ -122,6 +149,7 @@
   cursor: pointer;
   box-sizing: border-box;
   color: var(--bg-bright-color);
+  transition: all 0.5s;
 }
 .custom-link:hover {
   color: var(--link-light-color);

@@ -58,31 +58,22 @@
   font-weight: 400px;
   color: var(--heading-dark-color);
   height: 18px;
-  padding-left: 2px;
-  padding-right: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
   margin-left: 5px;
   margin-right: 5px;
   box-sizing: border-box;
-}
-.project-card .arrow-right {
-  position: absolute;
-  top: 0px;
-  left: 100%;
-  width: 0;
-  height: 0;
-	border-top: 9px solid transparent;
-	border-left: 5px solid var(--bg-bright-color);
-  border-bottom: 9px solid transparent;
+  border-radius: 5px;
 }
 .project-card .arrow-left {
   position: absolute;
-  top: 0px;
+  top: 4px;
   right: 100%;
   width: 0;
   height: 0;
-	border-top: 9px solid transparent;
-	border-right: 5px solid var(--bg-bright-color);
-  border-bottom: 9px solid transparent;
+	border-top: 5px solid transparent;
+	border-right: 3px solid var(--bg-bright-color);
+  border-bottom: 5px solid transparent;
 }
 
 .project-card p {
@@ -132,6 +123,7 @@
   cursor: pointer;
   box-sizing: border-box;
   color: var(--bg-bright-color);
+  transition: all 0.5s;
 }
 .custom-link:hover {
   color: var(--link-light-color);

@@ -91,6 +91,7 @@ class AboutMe extends Component {
               <h3>pavankumargeddapu@gmail.com</h3>
               <h2>Phone</h2>
               <h3>+91 9493778352</h3>
+              <h3>+91 8309530034</h3>
             </div>
           </div>
           <div className = "start-dark-circle"></div>

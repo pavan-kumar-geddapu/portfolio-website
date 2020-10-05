@@ -25,14 +25,14 @@ class Navbar extends Component {
           <div 
               className = "custom-navbar-item"
               onClick = {() => changeDescriptionItem("aboutme")}
-            >
-              <div className = {`${descriptionItem === "aboutme" ? 'arrow' : ''}`} ></div>
-              <div className = {`${descriptionItem === "aboutme" ? 'active' : ''}`} ></div>
-              <div className = "custom-navbar-item-icons">
-                <BsPersonFill />
-              </div>
-              <h3>about me</h3>         
+          >
+            <div className = {`${descriptionItem === "aboutme" ? 'arrow' : ''}`} ></div>
+            <div className = {`${descriptionItem === "aboutme" ? 'active' : ''}`} ></div>
+            <div className = "custom-navbar-item-icons">
+              <BsPersonFill />
             </div>
+            <h3>about me</h3>         
+          </div>
           <div 
             className = "custom-navbar-item"
             onClick = {() => changeDescriptionItem("resume")}

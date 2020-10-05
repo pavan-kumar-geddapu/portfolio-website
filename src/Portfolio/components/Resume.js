@@ -23,7 +23,9 @@ class Resume extends Component {
           <div className = "start-bright-circle"></div>
           <div className = "divider-container">
             <div className = "divider-children sub-heading">
-              <h3>Aug-2020 Present</h3>
+              <h3>
+                Aug-2020 <span><div className = "arrow-left"></div>Present</span>
+              </h3>
               <h2>Software Development Engineer</h2>
               <div className = "orginsation-icon">
                   <img className = "image-fill" src={mastercardLogo} alt="not found"></img>

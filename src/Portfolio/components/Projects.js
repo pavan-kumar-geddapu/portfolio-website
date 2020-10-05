@@ -61,7 +61,7 @@ class Projects extends Component {
             <div className = "project-card">
               <h2>Portfolio Website</h2>
               <h3>
-                Sep-2020 <span><div className = "arrow-left"></div>Present</span>
+                sep-2020 <span><div className = "arrow-left"></div>Present</span>
               </h3>
               <p>My portfolio website with custom made CSS styles using react framework.</p>
               <div className = "project-card-footer">
